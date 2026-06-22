@@ -1,0 +1,15 @@
+### Get aswer from chatGPT
+POST {{localhost}}:{{port}}/ingredients
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "model": "gpt-4o-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Milch"
+    }
+  ]
+}
+
