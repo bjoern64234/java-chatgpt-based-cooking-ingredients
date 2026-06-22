@@ -19,5 +19,4 @@ public class IngredientController {
     String categorizeIngredient(@RequestBody String ingredient) {
         return this.ingredientService.getIngredient(ingredient);
     }
-
 }
